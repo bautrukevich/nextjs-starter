@@ -1,8 +1,13 @@
 import "../styles/globals.css";
 import type { AppProps /*, AppContext */ } from "next/app";
+import { Layout } from "@/components/Layout/Layout";
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+  return (
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
+  );
 }
 
 // Only uncomment this method if you have blocking data requirements for
