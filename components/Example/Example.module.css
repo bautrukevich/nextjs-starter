@@ -1,0 +1,20 @@
+.example {
+  width: 1100px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.example_background_green {
+  background-color: lightgreen;
+}
+
+.example__element {
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.example__element_size_big {
+  font-size: 24px;
+}
