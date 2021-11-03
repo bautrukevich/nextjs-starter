@@ -4,7 +4,10 @@ import Head from "next/head";
 /* Components */
 import { Example } from "@/components/Example/Example";
 
-const IndexPage = () => (
+/* Types */
+import type { NextPage } from "next";
+
+const IndexPage: NextPage = () => (
   <>
     <Head>
       <title>Main page title, if you want to set title or other meta tags</title>
