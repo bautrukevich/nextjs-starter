@@ -2,7 +2,7 @@
 import Head from "next/head";
 
 /* Components */
-import { Example } from "@/components/Example/Example";
+import { Example } from "@/components/Example";
 
 /* Types */
 import type { NextPage } from "next";

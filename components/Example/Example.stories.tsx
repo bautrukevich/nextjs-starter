@@ -1,7 +1,7 @@
-import { ComponentMeta, ComponentStory, Meta } from "@storybook/react";
-
-import { Example } from "./Example";
 import React from "react";
+import { ComponentMeta, ComponentStory } from "@storybook/react";
+
+import { Example } from "./index";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {

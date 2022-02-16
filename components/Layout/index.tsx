@@ -3,9 +3,10 @@ import Head from "next/head";
 
 /* Types */
 import type { ReactNode } from "react";
-type Props = {
+
+interface Props {
   children: ReactNode;
-};
+}
 
 export const Layout = ({ children }: Props) => {
   return (

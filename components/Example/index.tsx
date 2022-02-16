@@ -1,16 +1,16 @@
 /* Utils */
-import { classNames } from "@/utils/class-names";
+import { classNames } from "@/packages/classnames";
 
 /* Styles */
-import styles from "./Example.module.css";
+import styles from "./styles.module.css";
 
 /* Types */
 import type { ReactNode } from "react";
 
-type Props = {
+interface Props {
   hasGreenBackground?: boolean;
   children: ReactNode;
-};
+}
 
 export const Example = ({ hasGreenBackground = true, children }: Props) => {
   return (
