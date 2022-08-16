@@ -11,5 +11,6 @@ utils
 next.config.js
 next-env.d.ts
 
+**/*.js
 **/*.ts
 **/*.tsx
