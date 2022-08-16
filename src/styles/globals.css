@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+
+  --base-color: #000;
+  --base-background: #fff;
+}
+
+:root.dark {
+  --base-color: #fff;
+  --base-background: #000;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --base-color: #fff;
+    --base-background: #000;
+  }
+}
