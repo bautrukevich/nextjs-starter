@@ -6,6 +6,7 @@ import { Example } from "@/components/Example";
 
 /* Types */
 import type { NextPage } from "next";
+import { ThemeButton } from "@/components/ThemeHandler/ThemeButton";
 
 const IndexPage: NextPage = () => (
   <>
@@ -15,6 +16,7 @@ const IndexPage: NextPage = () => (
     <main>
       <Example>
         <h1>Hello, my friend!</h1>
+        <ThemeButton />
       </Example>
     </main>
   </>

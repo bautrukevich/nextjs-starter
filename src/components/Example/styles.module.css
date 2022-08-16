@@ -10,8 +10,9 @@
 
 .example__element {
   padding: 24px;
-  background-color: #fff;
+  background-color: var(--base-background);
   border-radius: 8px;
+  color: var(--base-color);
   font-size: 18px;
 }
 

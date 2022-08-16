@@ -1,10 +1,14 @@
-import "../styles/globals.css";
+import "@/styles/globals.css";
 import type { AppProps /*, AppContext */ } from "next/app";
+import Script from "next/script";
+
 import { Layout } from "@/components/Layout";
+import { ThemeHandler } from "@/components/ThemeHandler";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Layout>
+      <ThemeHandler />
       <Component {...pageProps} />
     </Layout>
   );
